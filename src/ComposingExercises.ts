@@ -15,23 +15,23 @@ export namespace Composing {
 
     // We want to partially apply subtract
     export const minusThree: (i: number) => number = (i) => {
-        return null;
+        return <any>null;
     };
 
     // How do we create a new function from addTwo and minusThree?
     export const addTwoMinusThree: (i: number) => number = (i) => {
-        return null;
+        return <any>null;
     };
 
     export const prettyPrint = (i: number) => `The number is ${i}`;
 
     export const addTwoMinusThreePrettyPrint: (i: number) => string = (i) => {
-        return null;
+        return <any>null;
     };
 
     // How do we convert (compose) f and g into a brand new function?
     export function compose_<A, B, C>(f: (b: B) => C, g: (a: A) => B): (a: A) => C {
-        return null;
+        return <any>null;
     }
 }
 

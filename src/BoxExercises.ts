@@ -6,10 +6,10 @@ export class Box<A> {
     }
 
     map<B>(f: (a: A) => B): Box<B> {
-        return null;
+        return <any>null;
     }
 
     flatMap<B>(f: (a: A) => Box<B>): Box<B> {
-        return null;
+        return <any>null;
     }
 }

@@ -29,7 +29,7 @@ export namespace Folding {
     }
 
     export const foldLeft = <A, B>(initialValue: B, list: A[]) => (f: (b: B, a: A) => B): B => {
-        return null;
+        return <any>null;
     };
 
     /**
@@ -37,7 +37,7 @@ export namespace Folding {
      */
 
     export const foldRight = <A, B>(initialValue: B, list: A[]) => (f: (a: A, b: B) => B): B => {
-        return null;
+        return <any>null;
     };
 
     /**
@@ -46,39 +46,39 @@ export namespace Folding {
      */
 
     export const sum = (x: Array<number>): number => {
-        return null;
+        return <any>null;
     };
 
     export const length = <A>(x: A[]): number => {
-        return null;
+        return <any>null;
     };
 
     export const map = <A, B>(x: A[]) => (f: (a: A) => B): B[] => {
-        return null;
+        return <any>null;
     };
 
     export const filter = <A>(x: A[]) => (f: (a: A) => boolean): A[] => {
-        return null;
+        return <any>null;
     };
 
     export const append = <A>(x: A[]) => (y: A[]): A[] => {
-        return null;
+        return <any>null;
     };
 
     export const flatten = <A>(x: A[][]): A[] => {
-        return null;
+        return <any>null;
     };
 
     export const flatMap = <A, B>(x: A[]) => (f: (a: A) => B[]): B[] => {
-        return null;
+        return <any>null;
     };
 
     // Maximum of the empty list is 0
     export const maximum = (x: number[]): number => {
-        return null;
+        return <any>null;
     };
 
     export const reverse = <A>(x: A[]): A[] => {
-        return null;
+        return <any>null;
     };
 }
