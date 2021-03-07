@@ -1,12 +1,20 @@
 import {expect} from 'chai';
 import {Recursion} from '../src/RecursionExercises';
 
-const {plusOne, sum, length, map, filter, append, flatten, flatMap, maximum, reverse} = Recursion;
+const {plusOne, add, sum, length, map, filter, append, flatten, flatMap, maximum, reverse} = Recursion;
 
 describe('RecursionExercisesSpec', () => {
 
+    it('Add of 3 + 5 = 8', () => {
+        expect(add(3, 5)).equal(8);
+    });
+
     it('Sum of [] = 0', () => {
         expect(sum([])).equal(0);
+    });
+
+    it('Sum of [2] = 2', () => {
+        expect(sum([2])).equal(2);
     });
 
     it('Sum of [1,2,3,4,5,6] = 21', () => {
